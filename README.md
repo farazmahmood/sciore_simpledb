@@ -28,3 +28,22 @@ Defined pom.xml for each component, as well as one root such that single build c
 
 ## Artifacts 
 jar files can be found under respective `target` folder.
+
+
+## Execution
+
+### Run Server
+``` java -cp <Path>/simpledb-3.4.jar simpledb.server.StartServer```
+
+or
+
+```cd simpledb/target```
+```java -cp ./simpledb-3.4.jar simpledb.server.StartServer```
+
+### Client
+
+#### CreateStudentDB
+```java -cp .\simpleclient-3.4.jar;..\..\simpledb\target\simpledb-3.4.jar network.CreateStudentDB```
+
+#### SimpleIJ Client
+```java -cp .\simpleclient-3.4.jar;..\..\simpledb\target\simpledb-3.4.jar SimpleIJ```
