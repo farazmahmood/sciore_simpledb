@@ -16,7 +16,7 @@
   </properties>
 
   <build>
-    <sourceDirectory>${project.basedir}/</sourceDirectory>
+    <sourceDirectory>../simpledb</sourceDirectory>
 
   </build>
 </project>
